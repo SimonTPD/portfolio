@@ -1,0 +1,87 @@
+/*Navbar styling*/
+.navbar{
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*to get background color*/
+    background-color: black;
+}
+
+.navbar li{
+    float: left; /*to enable horizontal display*/
+}
+
+.navbar a{
+    display: block;
+    padding: 10px 15px;
+    color: darkgrey;
+    font-size: large;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #666;
+    color: darkgrey;
+}
+
+.navbar a:active{
+    background-color: #666;
+}
+
+/*Main page */
+.main_page{
+    background-color: darkgray;
+}
+
+/*About section styling*/
+.about{
+    width: 70%;
+    margin: auto; /*for horizontal alignment of the container*/
+    background-color: lightgray;
+}
+
+.about img{
+    float: right;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 0;
+}
+
+.about p{
+    text-align: justify;
+    font-size: 125%;
+}
+
+.about #skills{
+    margin-bottom: 0px;
+}
+
+.about ul{
+    margin: 0;
+    font-size: 125%;
+}
+
+/*Portfolio section styling*/
+.portfolio{
+    width: 70%;
+    margin: auto; /*for horizontal alignment of the container*/
+    background-color: lightcoral;    
+}
+
+.portfolio h1{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 200%;
+}
